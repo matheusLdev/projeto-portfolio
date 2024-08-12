@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import Fonts from './Fonts';
+import Colors from './Colors';
 
 export const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -37,28 +38,29 @@ export const GlobalStyle = createGlobalStyle`
     font-style: normal;
   }
 
-  body {
+  * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: ${Fonts.Poppins_regular};
-    background-color: #fff;
-    color: #000;
+    text-decoration: none;
+    list-style: none;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  body {
+    background: ${Colors.background};
+    font-family: ${Fonts.Poppins_regular};
+    color: ${Colors.primary};
+  }
+
+  h1, h2 {
     font-family: ${Fonts.Roboto_serif_semibold};
+  }
+  
+  h3 {
+    font-family: ${Fonts.Poppins_bold};
   }
 
   p {
     font-family: ${Fonts.Poppins_regular};
-  }
-
-  .bold {
-    font-family: ${Fonts.Poppins_bold};
-  }
-
-  .light {
-    font-family: ${Fonts.Poppins_light};
   }
 `;

@@ -1,8 +1,16 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import { GlobalStyle } from "./styles/GlobalStyles";
+
 function App() {
 
   return (
     <>
-      <h1>Bora iniciar meu portfólio!!!</h1>
+      <GlobalStyle />
+      <Header />
+      <Home />
+      <Footer />
     </>
   )
 }
