@@ -47,9 +47,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${Colors.background};
+    background: ${Colors.white};
     font-family: ${Fonts.Poppins_regular};
-    color: ${Colors.primary};
+    color: ${Colors.white};
   }
 
   h1, h2 {
