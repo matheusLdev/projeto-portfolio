@@ -1,8 +1,13 @@
+import Container from '../Container'
+import { ContainerFooter } from './style'
+
 const Footer = () => {
   return (
-    <footer>
-      Footer
-    </footer>
+    <Container height='min-content'>
+      <ContainerFooter>
+        Desenvolvedor Matheus Gonçalves - Todos os direitos reservados ©
+      </ContainerFooter>
+    </Container>
   )
 }
 

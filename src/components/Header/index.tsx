@@ -1,9 +1,15 @@
-import { ContainerHeader } from "./style";
+import { ContainerHeader, MenuNav } from './style';
 
 const Header = () => {
   return (
     <ContainerHeader>
-      Headerseseses
+      <MenuNav>
+        <ul>
+          <li>HOME</li>
+          <li>PROJETOS</li>
+          <li>SOBRE MIM</li>
+        </ul>
+      </MenuNav>
     </ContainerHeader>
   )
 }

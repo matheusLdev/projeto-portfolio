@@ -1,11 +1,10 @@
-import React from 'react'
-import Container from '../Container';
+import ContainerGradient from '../Container';
 
 const Home = () => {
   return (
-    <Container>
+    <ContainerGradient>
       <h1 style={{color: '#fff'}}>Bora iniciar meu portfólio!!!</h1>
-    </Container>
+    </ContainerGradient>
   )
 }
 
