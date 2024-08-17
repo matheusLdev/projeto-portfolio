@@ -3,3 +3,8 @@ export type ContainerProps = {
   height?: string;
   children: React.ReactNode;
 }
+
+export type ContainerSectionProps = {
+  titleSection: string;
+  children: React.ReactNode;
+}
