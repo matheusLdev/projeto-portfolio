@@ -3,11 +3,14 @@ import Colors from '../../styles/Colors';
 import Fonts from '../../styles/Fonts';
 
 export const ContainerHeader = styled.header`
+  height: 3rem;
   position: fixed;
   top: 0;
   background: none;
   width: 100%;
   text-align: center;
+  z-index: 10;
+  background: ${Colors.gradient};
 `
 
 export const MenuNav = styled.nav`

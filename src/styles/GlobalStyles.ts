@@ -49,7 +49,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: ${Colors.white};
     font-family: ${Fonts.Poppins_regular};
-    color: ${Colors.white};
+    color: ${Colors.dark_blue};
   }
 
   h1, h2 {
