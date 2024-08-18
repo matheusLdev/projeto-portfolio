@@ -6,4 +6,5 @@ export const ContainerGradient = styled.div<ContainerProps>`
   background: ${Colors.gradient};
   width: ${(props) => props.width || '100%'};
   height: ${(props) => props.height || '100vh'};
+  border-radius: ${(props) => props.borderRadius || ''};;
 `

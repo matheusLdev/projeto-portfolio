@@ -3,7 +3,7 @@ import Colors from '../../styles/Colors';
 
 export const Container = styled.section`
   width: 90%;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 2.5rem 0;
 `

@@ -1,6 +1,7 @@
 export type ContainerProps = {
   width?: string;
   height?: string;
+  borderRadius?: string;
   children: React.ReactNode;
 }
 

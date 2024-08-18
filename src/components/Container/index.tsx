@@ -1,9 +1,9 @@
 import { ContainerProps } from '../../types';
 import { ContainerGradient } from './style';
 
-const Container = ({ width, height, children }: ContainerProps) => {
+const Container = ({ width, height, borderRadius, children }: ContainerProps) => {
   return (
-    <ContainerGradient width={width} height={height}>
+    <ContainerGradient width={width} height={height} borderRadius={borderRadius}>
       {children}
     </ContainerGradient>
   )
