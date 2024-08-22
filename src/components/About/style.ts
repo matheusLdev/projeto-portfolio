@@ -46,7 +46,7 @@ export const ContainerHistory = styled.section`
 `
 
 export const MenuAside = styled.aside`
-  ul li {
+ ul li {
     font-family: ${Fonts.Poppins_bold};
     font-weight: 700;
     font-size: 1.5rem;
@@ -54,6 +54,12 @@ export const MenuAside = styled.aside`
     margin-bottom: 2rem;
     border-radius: .3rem;
     box-shadow: 0 0 .3rem 0 rgba(0,0,0,.1);
+    cursor: pointer;
+
+  }
+  ul li.active {
+    background: ${Colors.gradient};
+    color: ${Colors.white};
   }
 `
 
