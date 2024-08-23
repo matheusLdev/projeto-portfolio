@@ -14,9 +14,11 @@ export const ContainerHeader = styled.header`
 `
 
 export const MenuNav = styled.nav`
-  font-family: ${Fonts.Poppins_bold};
-  font-weight: 700;
-  color: ${Colors.white};
+  a {
+    font-family: ${Fonts.Poppins_bold};
+    font-weight: 700;
+    color: ${Colors.white};
+  }
 
   ul {
     display: flex;

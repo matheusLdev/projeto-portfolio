@@ -2,9 +2,9 @@ import { ContainerSectionProps } from '../../types';
 import { Container, TitleSection } from './style';
 
 
-const ContainerSection = ({ children, titleSection }: ContainerSectionProps) => {
+const ContainerSection = ({ children, titleSection, id }: ContainerSectionProps) => {
   return (
-    <Container>
+    <Container id={id}>
       <TitleSection>{titleSection}</TitleSection>
       {children}
     </Container>

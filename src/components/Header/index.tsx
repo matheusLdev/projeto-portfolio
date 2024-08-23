@@ -5,9 +5,9 @@ const Header = () => {
     <ContainerHeader>
       <MenuNav>
         <ul>
-          <li>HOME</li>
-          <li>PROJETOS</li>
-          <li>SOBRE MIM</li>
+          <li><a href="#inicio" rel="noopener noreferrer">HOME</a></li>
+          <li><a href="#projeto" rel="noopener noreferrer">PROJETOS</a></li>
+          <li><a href="#sobre" rel="noopener noreferrer">SOBRE MIM</a></li>
         </ul>
       </MenuNav>
     </ContainerHeader>

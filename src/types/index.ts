@@ -6,6 +6,7 @@ export type ContainerProps = {
 }
 
 export type ContainerSectionProps = {
+  id: string;
   titleSection: string;
   children: React.ReactNode;
 }

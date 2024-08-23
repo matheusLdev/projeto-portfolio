@@ -8,7 +8,7 @@ const About = () => {
   const [activeSection, setActiveSection] = useState('Formações');
 
   return (
-    <ContainerSection titleSection='Quem Sou Eu?'>
+    <ContainerSection id='sobre' titleSection='Quem Sou Eu?'>
       <ContainerBio>
         <ImagePerson src={Matheus} />
         <ContainerText>
@@ -59,7 +59,7 @@ const About = () => {
                   <br/>
                   <h3>Cursos Realizados:</h3>
                   <p>
-                    <a href=''>JavaScript Completo</a>, <a href=''>TypeScript Completo</a>, <a href=''>React Completo</a>, <a href=''>React com TypeScript</a>, <a href=''>Redux com React</a> e <a href=''>UI Design</a>.
+                    <a href='https://origamid.com/certificate/2a5acb15' target="_blank" rel="noopener noreferrer">JavaScript Completo</a>, <a href='https://www.origamid.com/certificate/781520c7' target="_blank" rel="noopener noreferrer">TypeScript Completo</a>, <a href='https://www.origamid.com/certificate/e6c557cb' target="_blank" rel="noopener noreferrer">React Completo</a>, <a href='https://www.origamid.com/certificate/b04d0774' target="_blank" rel="noopener noreferrer">React com TypeScript</a>, <a href='https://origamid.com/certificate/a65784cd' target="_blank" rel="noopener noreferrer">Redux com React</a> e <a href='https://origamid.com/certificate/8d506280' target="_blank" rel="noopener noreferrer">UI Design</a>.
                   </p>
                   <br/><br/>
                   <h3>Instituição:</h3>
@@ -67,7 +67,7 @@ const About = () => {
                   <br/>
                   <h3>Cursos Realizados:</h3>
                   <p>
-                    <a href=''>Desenvolvimento Web Completo</a> e <a href=''>NestJS</a>.
+                    <a href='https://www.udemy.com/certificate/UC-a9194722-c607-4531-bd56-b3285dd76887/' target="_blank" rel="noopener noreferrer">Desenvolvimento Web Completo</a> e <a href='https://www.udemy.com/certificate/UC-6e58e0ce-62ff-4678-8a8d-dd36d064d22d/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com' target="_blank" rel="noopener noreferrer">NestJS</a>.
                   </p>
                   <br/><br/>
                   <h3>Instituição:</h3>
@@ -75,7 +75,7 @@ const About = () => {
                   <br/>
                   <h3>Cursos Realizados:</h3>
                   <p>
-                    <a href=''>Git e GitHub</a>, <a href=''>Metodologia Ágil SCRUM</a>, e <a href=''>Bootcamp Cloud AWS</a>.
+                    <a href='https://www.dio.me/certificate/6F518D3F/share' target="_blank" rel="noopener noreferrer">Git e GitHub</a>, <a href='https://www.dio.me/certificate/A3CF6EDD/share' target="_blank" rel="noopener noreferrer">Metodologia Ágil SCRUM</a>, e <a href='https://www.dio.me/certificate/359C3BC3/share' target="_blank" rel="noopener noreferrer">Bootcamp Cloud AWS</a>.
                   </p>
                 </ContainerContent>
               </Container>
