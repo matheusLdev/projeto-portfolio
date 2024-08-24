@@ -36,6 +36,11 @@ export const LinkTalkMe = styled.a`
   font-size: 1.2rem;
   padding: 1rem 1.5rem;
   border-radius: .3rem;
+
+  &:hover {
+    color: #A0A0A0;
+    transition: .5s;
+  }
 `
 
 export const ContainerHistory = styled.section`
@@ -56,6 +61,11 @@ export const MenuAside = styled.aside`
     box-shadow: 0 0 .3rem 0 rgba(0,0,0,.1);
     cursor: pointer;
 
+    &:hover {
+      color: ${Colors.white};
+      background: ${Colors.gradient};
+      transition: .5s;
+    }
   }
   ul li.active {
     background: ${Colors.gradient};

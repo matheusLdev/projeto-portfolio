@@ -18,6 +18,11 @@ export const MenuNav = styled.nav`
     font-family: ${Fonts.Poppins_bold};
     font-weight: 700;
     color: ${Colors.white};
+
+    &:hover {
+      color: #A0A0A0;
+      transition: .5s;
+    }
   }
 
   ul {

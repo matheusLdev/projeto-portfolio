@@ -75,7 +75,7 @@ const About = () => {
                   <br/>
                   <h3>Cursos Realizados:</h3>
                   <p>
-                    <a href='https://www.dio.me/certificate/6F518D3F/share' target="_blank" rel="noopener noreferrer">Git e GitHub</a>, <a href='https://www.dio.me/certificate/A3CF6EDD/share' target="_blank" rel="noopener noreferrer">Metodologia Ágil SCRUM</a>, e <a href='https://www.dio.me/certificate/359C3BC3/share' target="_blank" rel="noopener noreferrer">Bootcamp Cloud AWS</a>.
+                    <a href='https://www.dio.me/certificate/6F518D3F/share' target="_blank" rel="noopener noreferrer">Git e GitHub</a>, <a href='https://www.dio.me/certificate/A3CF6EDD/share' target="_blank" rel="noopener noreferrer">Metodologia Ágil SCRUM</a> e <a href='https://www.dio.me/certificate/359C3BC3/share' target="_blank" rel="noopener noreferrer">Bootcamp Cloud AWS</a>.
                   </p>
                 </ContainerContent>
               </Container>
