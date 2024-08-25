@@ -44,7 +44,7 @@ export const MenuNav = styled.nav`
       flex-direction: column;
       justify-content: start;
       align-items: start;
-      background: ${Colors.gradient};
+      background: ${Colors.dark_blue};
       margin-top: 0;
       gap: 2rem;
       padding-top: 3rem;
@@ -60,6 +60,7 @@ export const MenuNav = styled.nav`
 
     &.open ul {
       height: 100vh;
+      background: ${Colors.gradient};
     }
   }
 `;
