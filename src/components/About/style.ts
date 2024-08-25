@@ -9,12 +9,24 @@ export const ContainerBio = styled.article`
   border-top-left-radius: 7.5rem;
   box-shadow: 0 0 .3rem 0 rgba(0,0,0,.1);
   margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    padding-top: .5rem;
+    border-top-left-radius: .3rem;
+  }
 `
 
 export const ImagePerson = styled.img`
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
+
+  @media (max-width: 768px) {
+    width: 10rem;
+    height: 10rem;
+  }
 `
 
 export const ContainerText = styled.div`
@@ -23,6 +35,10 @@ export const ContainerText = styled.div`
   p {
     font-size: 1.2rem;
     margin: 1rem auto;
+
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
   }
 `
 
@@ -41,6 +57,12 @@ export const LinkTalkMe = styled.a`
     color: #A0A0A0;
     transition: .5s;
   }
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: .8rem 1.2rem;
+  }
 `
 
 export const ContainerHistory = styled.section`
@@ -48,10 +70,22 @@ export const ContainerHistory = styled.section`
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 export const MenuAside = styled.aside`
- ul li {
+  ul {
+    @media (max-width: 768px) {
+      display: flex;
+      align-items: stretch;
+      gap: 1rem;
+    }
+  }
+  ul li {
+    width: 13rem;
     font-family: ${Fonts.Poppins_bold};
     font-weight: 700;
     font-size: 1.5rem;
@@ -66,7 +100,17 @@ export const MenuAside = styled.aside`
       background: ${Colors.gradient};
       transition: .5s;
     }
+
+    @media (max-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 10rem;
+      font-size: 1.2rem;
+    }
   }
+
   ul li.active {
     background: ${Colors.gradient};
     color: ${Colors.white};
@@ -100,6 +144,10 @@ export const ContainerContent = styled.div`
     li {
       list-style: disc;
     }
+  }
+
+  @media (max-width: 768px) {
+    font-size: .9rem;
   }
 `
 
