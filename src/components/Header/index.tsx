@@ -1,9 +1,9 @@
-import { useRef } from 'react';
-import { ContainerHeader, MenuNav } from './style';
+import { useRef, useState } from 'react';
+import { ContainerHeader, HamburgerButton, MenuNav } from './style';
 
 const Header = () => {
   const headerRef = useRef<HTMLDivElement>(null);
-
+  const [menuMobile, setMenuMobile] = useState(false);
 
   const handleSmoothScroll = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, targetId: string) => {
     event.preventDefault();
@@ -19,11 +19,17 @@ const Header = () => {
         behavior: 'smooth'
       });
     }
+
+    setMenuMobile(false); // Fechar o menu ao clicar em um item
   };
 
   return (
     <ContainerHeader ref={headerRef}>
-      <MenuNav>
+      <HamburgerButton onClick={() => setMenuMobile(!menuMobile)} className={menuMobile ? 'open' : ''}>
+        <span></span>
+      </HamburgerButton>
+
+      <MenuNav className={menuMobile ? 'open' : ''}>
         <ul>
           <li>
             <a href="#inicio" onClick={(e) => handleSmoothScroll(e, 'inicio')} rel="noopener noreferrer">HOME</a>
@@ -37,7 +43,7 @@ const Header = () => {
         </ul>
       </MenuNav>
     </ContainerHeader>
-  )
-}
+  );
+};
 
 export default Header;
