@@ -13,4 +13,8 @@ export const TitleSection = styled.h2`
   font-size: 3rem;
   text-transform: uppercase;
   margin-bottom: 4rem;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `
