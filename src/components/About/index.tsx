@@ -3,6 +3,7 @@ import Matheus from '../../assets/images/matheus.png'
 import { ContainerBio, ContainerContent, ContainerHistory, ContainerHistoryEducation, ContainerText, ImagePerson, LinkTalkMe, MenuAside } from './style';
 import Container from '../Container';
 import { useState } from 'react';
+import Animate from '../Animate';
 
 const About = () => {
   const [activeSection, setActiveSection] = useState('Formações');
@@ -37,8 +38,8 @@ const About = () => {
           </ul>
         </MenuAside>
         <ContainerHistoryEducation>
-        {activeSection === 'Formações' && (
-            <>
+          {activeSection === 'Formações' && (
+            <Animate key="formacoes">
               <Container height='fit-content' borderRadius='.3rem'>
                 <ContainerContent>
                   <h2>Ensino Superior</h2>
@@ -79,30 +80,32 @@ const About = () => {
                   </p>
                 </ContainerContent>
               </Container>
-            </>
+            </Animate>
           )}
           {activeSection === 'Experiência Profissional' && (
-            <Container height='fit-content' borderRadius='.3rem'>
-              <ContainerContent>
-                <h2>Experiência Profissional</h2>
-                <br/>
-                <h3>Empresa:</h3><h4>Markts.</h4>
-                <p> - <strong>Período:</strong> Fevereiro de 2024, até o presente momento.</p>
-                <br/>
-                <h3>Cargo:</h3>
-                <p>Desenvolvedor Full-Stack e Mobile.</p>
-                <br/>
-                <h3>Descrição:</h3>
-                <ul>
-                  <li>Desenvolver aplicações web e móveis intuitivas e responsivas usando React, React Native e TypeScript;</li>
-                  <li>Utilizar o NestJS para desenvolver a lógica do servidor;</li>
-                  <li>Consumir WebServices em RestFull;</li>
-                  <li>Usar o Git para controlar as versões do código-fonte;</li>
-                  <li>Identificar e corrigir bugs em aplicações existentes, aplicar testes unitários e adotar Clean Code;</li>
-                  <li>Usar a metodologia ágil Scrum.</li>
-                </ul>
-              </ContainerContent>
-            </Container>
+            <Animate key="experiencia">
+              <Container height='fit-content' borderRadius='.3rem'>
+                <ContainerContent>
+                  <h2>Experiência Profissional</h2>
+                  <br/>
+                  <h3>Empresa:</h3><h4>Markts.</h4>
+                  <p> - <strong>Período:</strong> Fevereiro de 2024, até o presente momento.</p>
+                  <br/>
+                  <h3>Cargo:</h3>
+                  <p>Desenvolvedor Full-Stack e Mobile.</p>
+                  <br/>
+                  <h3>Descrição:</h3>
+                  <ul>
+                    <li>Desenvolver aplicações web e móveis intuitivas e responsivas usando React, React Native e TypeScript;</li>
+                    <li>Utilizar o NestJS para desenvolver a lógica do servidor;</li>
+                    <li>Consumir WebServices em RestFull;</li>
+                    <li>Usar o Git para controlar as versões do código-fonte;</li>
+                    <li>Identificar e corrigir bugs em aplicações existentes, aplicar testes unitários e adotar Clean Code;</li>
+                    <li>Usar a metodologia ágil Scrum.</li>
+                  </ul>
+                </ContainerContent>
+              </Container>
+            </Animate>
           )}
         </ContainerHistoryEducation>
       </ContainerHistory>

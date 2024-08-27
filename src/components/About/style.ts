@@ -121,6 +121,7 @@ export const ContainerContent = styled.div`
   width: 100%;
   padding: 1rem;
   color: ${Colors.white};
+  margin-bottom: 1rem;
 
   h3, h4, p {
     display: inline;

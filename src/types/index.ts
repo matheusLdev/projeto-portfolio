@@ -10,3 +10,9 @@ export type ContainerSectionProps = {
   titleSection: string;
   children: React.ReactNode;
 }
+
+export type AnimateProps = {
+  children: React.ReactNode;
+  className?: string;
+  key?: string;
+}
