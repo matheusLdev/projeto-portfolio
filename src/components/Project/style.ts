@@ -11,19 +11,36 @@ export const ContainerProjects = styled.section`
 
   @media (max-width: 920px) {
     flex-wrap: wrap;
+    justify-content: center;
   }
 `
 
 export const CardProject = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between  ;
+  max-width: 50%;
   min-width: 22rem;
-  height: 28rem;
+  height: 32rem;
   padding: 1rem;
   border-radius: .3rem;
   box-shadow: 0 0 .3rem 0 rgba(0,0,0,.1);
   margin-bottom: 2rem;
 
   @media (max-width: 920px) {
+    max-width: 90%;
     height: fit-content;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  img {
+    max-width: 400px;
+    border-radius: 8px;
+    margin: 0 auto;
   }
 
   h2 a {
