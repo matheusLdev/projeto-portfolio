@@ -8,7 +8,11 @@ const Project = () => {
     <ContainerSection id="projeto" titleSection="Projetos">
       <ContainerProjects>
         <CardProject>
-          <img src={TendenciesRh} alt="Imagem do projeto TendenciesRH" style={{maxWidth: '300px'}}/>
+          <img
+            src={TendenciesRh}
+            alt="Imagem do projeto TendenciesRH"
+            style={{ maxWidth: "300px" }}
+          />
           <div>
             <h2>
               Projeto TendenciesRH -{" "}
@@ -29,21 +33,7 @@ const Project = () => {
               se adapta a diferentes dispositivos, proporcionando uma
               experiência de navegação fluida para os usuários.
             </p>
-            <br /><br />
-            <h3>Funcionalidades:</h3>
-            <ul>
-              <li>
-                Páginas dinâmicas que apresentam os serviços e diferenciais da
-                TendenciesRH.
-              </li>
-              <li>
-                Design responsivo, garantindo uma boa experiência em
-                dispositivos móveis e desktops.
-              </li>
-              <li>
-                SEO otimizado para melhor visibilidade nos mecanismos de busca.
-              </li>
-            </ul>
+            <br />
             <br />
             <h3>Especificações Técnicas:</h3>
             <p>
@@ -60,7 +50,17 @@ const Project = () => {
           <img src={GuiaConferencia} alt="Imagem do app Guia de Conferência" />
           <br />
           <div>
-            <h2>Projeto Guia de Conferência (GDC)</h2>
+            <h2>
+              Projeto Guia de Conferência (GDC) -{" "}
+              <a
+                href="https://github.com/matheusLdev/ProjetoGuiaDeConferencia"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver Repositório
+              </a>
+            </h2>
+            <h2></h2>
             <br />
             <h3>Descrição:</h3>
             <p>
@@ -71,21 +71,6 @@ const Project = () => {
               o processo de conferência.
             </p>
             <br />
-            <br />
-            <h3>Funcionalidades:</h3>
-            <ul>
-              <li>
-                Registro de viagens e passageiros de forma prática e rápida.
-              </li>
-              <li>
-                Armazenamento digital de guias de conferência, acessíveis a
-                qualquer momento.
-              </li>
-              <li>
-                Interface simplificada para fácil navegação, mesmo para usuários
-                com pouca experiência em tecnologia.
-              </li>
-            </ul>
             <br />
             <h3>Especificações Técnicas:</h3>
             <p>

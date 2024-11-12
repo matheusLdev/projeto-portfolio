@@ -7,7 +7,7 @@ export const ContainerProjects = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 5rem;
 
   @media (max-width: 920px) {
     flex-wrap: wrap;
@@ -22,7 +22,7 @@ export const CardProject = styled.div`
   justify-content: space-between;
   max-width: 50%;
   min-width: 22rem;
-  min-height: 36rem;
+  min-height: 28rem;
   padding: 1rem;
   border-radius: .3rem;
   box-shadow: 0 0 .3rem 0 rgba(0,0,0,.1);
@@ -43,7 +43,7 @@ export const CardProject = styled.div`
   }
 
   img {
-    max-width: 200px;
+    max-width: 250px;
     border-radius: 8px;
     margin: 0 auto;
   }
