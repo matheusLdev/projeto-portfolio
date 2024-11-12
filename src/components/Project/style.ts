@@ -19,14 +19,19 @@ export const CardProject = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between  ;
+  justify-content: space-between;
   max-width: 50%;
   min-width: 22rem;
-  height: 32rem;
+  min-height: 36rem;
   padding: 1rem;
   border-radius: .3rem;
   box-shadow: 0 0 .3rem 0 rgba(0,0,0,.1);
   margin-bottom: 2rem;
+
+  ul li {
+    margin-left: 1rem;
+    list-style: disc;
+  }
 
   @media (max-width: 920px) {
     max-width: 90%;
@@ -38,7 +43,7 @@ export const CardProject = styled.div`
   }
 
   img {
-    max-width: 400px;
+    max-width: 200px;
     border-radius: 8px;
     margin: 0 auto;
   }
@@ -59,5 +64,9 @@ export const CardProject = styled.div`
 
   p {
     margin-left: .3rem;
+  }
+
+  strong {
+    font-size: .95rem;
   }
 `
