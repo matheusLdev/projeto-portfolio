@@ -144,6 +144,8 @@ export const ContainerContent = styled.div`
     padding-left: 1rem;
     li {
       list-style: disc;
+      margin-top: .125rem;
+      margin-bottom: .125rem;
     }
   }
 
