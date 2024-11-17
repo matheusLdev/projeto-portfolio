@@ -15,7 +15,7 @@ const Project = () => {
           />
           <div>
             <h2>
-              Projeto TendenciesRH -{" "}
+              Site TendenciesRH -{" "}
               <a
                 href="https://tendenciesrh.com/"
                 target="_blank"
@@ -51,7 +51,7 @@ const Project = () => {
           <br />
           <div>
             <h2>
-              Projeto Guia de Conferência (GDC) -{" "}
+              App Guia de Conferência (GDC) -{" "}
               <a
                 href="https://github.com/matheusLdev/ProjetoGuiaDeConferencia"
                 target="_blank"
